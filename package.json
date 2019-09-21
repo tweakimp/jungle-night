@@ -10,6 +10,7 @@
         "Themes"
     ],
     "publisher": "tweakimp",
+    "repository": "https://github.com/tweakimp/jungle-night",
     "contributes": {
         "themes": [
             {
