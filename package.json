@@ -1,0 +1,22 @@
+{
+    "name": "jungle-night",
+    "displayName": "Jungle Night",
+    "description": "Dark VSCode Theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.38.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "publisher": "tweakimp",
+    "contributes": {
+        "themes": [
+            {
+                "label": "Jungle Night",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Jungle Night-color-theme.json"
+            }
+        ]
+    }
+}
