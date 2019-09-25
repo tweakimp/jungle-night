@@ -1,7 +1,7 @@
 # Jungle Night
 ### VSCode Theme
 
-![Screenshot](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Screenshot")
+![Screenshot](https://raw.githubusercontent.com/tweakimp/jungle-night/master/theme.png "Screenshot")
 
 I recommend using [FiraCode](https://github.com/tonsky/FiraCode) with ligatures.
 
