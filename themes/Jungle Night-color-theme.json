@@ -57,7 +57,7 @@
         "editor.selectionForeground": "#dcdcdc",
         "editor.selectionHighlightBackground": "#4E525540",
         "editor.selectionHighlightBorder": "#00000000", // transparent
-        "editor.stackFrameHighlightBackground": "#e5454550",
+        "editor.stackFrameHighlightBackground": "#e5454520",
         "editor.wordHighlightBackground": "#fac86330",
         "editor.wordHighlightBorder": "#fac863",
         "editor.wordHighlightStrongBackground": "#6D7073",
@@ -232,7 +232,7 @@
         "pickerGroup.foreground": "#dcdcdc",
         "progressBar.background": "#fac863",
         "quickInput.background": "#1E2428",
-        "quickInput.foreground": "#4E5255",
+        "quickInput.foreground": "#BCBDBE",
         "scrollbar.shadow": "#000000cc",
         "scrollbarSlider.activeBackground": "#fac863",
         "scrollbarSlider.background": "#6D7073",
@@ -551,7 +551,7 @@
                 "string.regexp"
             ],
             "settings": {
-                "foreground": "#80ffff"
+                "foreground": "#ff8080"
             }
         },
         {
