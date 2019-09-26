@@ -67,7 +67,7 @@
         "editorCodeLens.foreground": "#dcdcdc",
         "editorCursor.background": "#ff05ff",
         "editorCursor.foreground": "#fac863",
-        "editorError.border": "#3E4246",
+        "editorError.border": "#00000000", // transparent
         "editorError.foreground": "#e54545",
         "editorGroup.border": "#000000",
         "editorGroup.dropBackground": "#3E4246",
@@ -334,8 +334,8 @@
         "tree.indentGuidesStroke": "#4E5255",
         "walkThrough.embeddedEditorBackground": "#1E2428",
         "welcomePage.background": "#0F1519",
-        "welcomePage.buttonBackground": "#1E2428", // button background
-        "welcomePage.buttonHoverBackground": "#3E4246", // button hover background
+        "welcomePage.buttonBackground": "#1E2428",
+        "welcomePage.buttonHoverBackground": "#3E4246",
         "widget.shadow": "#0F1519"
     },
     "tokenColors": [
