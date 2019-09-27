@@ -117,8 +117,8 @@
         "editorRuler.foreground": "#45e545",
         "editor.snippetFinalTabstopHighlightBackground": "#00000000", // transparent
         "editor.snippetFinalTabstopHighlightBorder": "#00000000", // transparent
-        "editor.snippetTabstopHighlightBackground": "#80ff80",
-        "editor.snippetTabstopHighlightBorder": "#00000000", // transparent
+        "editor.snippetTabstopHighlightBackground": "#00000000", // transparent
+        "editor.snippetTabstopHighlightBorder": "#80ff80",
         "editorSuggestWidget.background": "#1E2428",
         "editorSuggestWidget.border": "#0F1519",
         "editorSuggestWidget.foreground": "#dcdcdc",
