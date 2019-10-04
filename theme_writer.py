@@ -100,7 +100,7 @@ theme = f"""{{
         "editor.hoverHighlightBackground": "{gray_level4}50",
         "editor.inactiveSelectionBackground": "{gray_level2}",
         "editor.lineHighlightBackground": "{gray_level4}50",
-        "editor.lineHighlightBorder": "{transparent}", // border around current line not needed > transparent
+        "editor.lineHighlightBorder": "{transparent}", // border around current line
         "editor.rangeHighlightBackground": "{gray_level4}15", // slight highlight for current line
         "editor.rangeHighlightBorder": "{h_yellow}", // border around current search result
         "editor.selectionBackground": "{gray_level4}40",
@@ -189,7 +189,7 @@ theme = f"""{{
         "extensionButton.prominentBackground": "{h_yellow}",
         "extensionButton.prominentForeground": "{gray_level2}",
         "extensionButton.prominentHoverBackground": "{b_yellow}",
-        "focusBorder": "{gray_level3}",
+        "focusBorder": "{transparent}", // inner border around focused widgets
         "foreground": "{white}",
         "gitDecoration.addedResourceForeground": "{h_yellow}",
         "gitDecoration.conflictingResourceForeground": "{b_red}",

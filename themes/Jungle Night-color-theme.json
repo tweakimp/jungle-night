@@ -48,7 +48,7 @@
         "editor.hoverHighlightBackground": "#4E525550",
         "editor.inactiveSelectionBackground": "#1E2428",
         "editor.lineHighlightBackground": "#4E525550",
-        "editor.lineHighlightBorder": "#00000000", // border around current line not needed > transparent
+        "editor.lineHighlightBorder": "#00000000", // border around current line
         "editor.rangeHighlightBackground": "#4E525515", // slight highlight for current line
         "editor.rangeHighlightBorder": "#fac863", // border around current search result
         "editor.selectionBackground": "#4E525540",
@@ -137,7 +137,7 @@
         "extensionButton.prominentBackground": "#fac863",
         "extensionButton.prominentForeground": "#1E2428",
         "extensionButton.prominentHoverBackground": "#ffff80",
-        "focusBorder": "#3E4246",
+        "focusBorder": "#00000000", // inner border around focused widgets
         "foreground": "#dcdcdc",
         "gitDecoration.addedResourceForeground": "#fac863",
         "gitDecoration.conflictingResourceForeground": "#ff8080",
