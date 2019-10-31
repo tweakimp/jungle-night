@@ -157,14 +157,14 @@ theme = f"""{{
         "editorOverviewRuler.commonContentForeground": "{h_yellow}",
         "editorOverviewRuler.currentContentForeground": "{h_yellow}",
         "editorOverviewRuler.deletedForeground": "{h_yellow}",
-        "editorOverviewRuler.errorForeground": "{h_yellow}",
+        "editorOverviewRuler.errorForeground": "{red}",
         "editorOverviewRuler.findMatchForeground": "{h_yellow}",
         "editorOverviewRuler.incomingContentForeground": "{h_yellow}",
         "editorOverviewRuler.infoForeground": "{h_yellow}",
         "editorOverviewRuler.modifiedForeground": "{h_yellow}",
         "editorOverviewRuler.rangeHighlightForeground": "{h_yellow}",
-        "editorOverviewRuler.selectionHighlightForeground": "{h_yellow}",
-        "editorOverviewRuler.warningForeground": "{h_yellow}",
+        "editorOverviewRuler.selectionHighlightForeground": "{transparent}",
+        "editorOverviewRuler.warningForeground": "{red}",
         "editorOverviewRuler.wordHighlightForeground": "{h_yellow}",
         "editorOverviewRuler.wordHighlightStrongForeground": "{h_yellow}",
         "editorPane.background": "{gray_level2}",
@@ -248,7 +248,7 @@ theme = f"""{{
         "merge.currentHeaderBackground": "{transparent}",
         "merge.incomingContentBackground": "{transparent}",
         "merge.incomingHeaderBackground": "{transparent}",
-        "minimap.findMatchHighlight": "{unused()}",
+        "minimap.findMatchHighlight": "{h_yellow}cc",
         "notificationCenter.border": "{gray_level2}",
         "notificationCenterHeader.background": "{gray_level2}",
         "notificationCenterHeader.foreground": "{white}",
@@ -912,7 +912,7 @@ theme = f"""{{
             "name": "[TYPESCRIPT] - Keyword",
             "scope": "source.ts keyword",
             "settings": {{
-                "foreground": "{b_magenta}"
+                "foreground": "{dm_green}"
             }}
         }},
         {{
