@@ -44,6 +44,8 @@ lm_green = "#8fbf8f"
 
 count = 0
 
+
+
 def unused():
     global count
     count += 1
@@ -52,6 +54,8 @@ def unused():
 
 theme = f"""{{	
     "colors": {{
+        "activityBar.activeBackground": "{gray_level1}",
+        "activityBar.activeBorder": "{transparent}",
         "activityBar.background": "{gray_level2}", // standard background
         "activityBar.border": "{pure_black}", // standard border
         "activityBar.dropBackground": "{gray_level3}", // drag and drop
@@ -76,6 +80,15 @@ theme = f"""{{
         "contrastBorder": "{transparent}",
         "debugExceptionWidget.background": "{gray_level2}",
         "debugExceptionWidget.border": "{white}",
+        // "debugIcon.continueForeground": "{unused()}",
+        // "debugIcon.disconnectForeground": "{unused()}",
+        // "debugIcon.pauseForeground": "{unused()}",
+        // "debugIcon.restartForeground": "{unused()}",
+        // "debugIcon.startForeground": "{unused()}",
+        // "debugIcon.stepIntoForeground": "{unused()}",
+        // "debugIcon.stepOutForeground": "{unused()}",
+        // "debugIcon.stepOverForeground": "{unused()}",
+        // "debugIcon.stopForeground": "{unused()}",
         "debugToolBar.background": "{gray_level2}",
         "debugToolBar.border": "{h_yellow}",
         "descriptionForeground": "{white}",
@@ -87,7 +100,7 @@ theme = f"""{{
         "dropdown.background": "{gray_level1}",
         "dropdown.border": "{gray_level1}",
         "dropdown.foreground": "{white}",
-        "dropdown.listBackground": "{gray_level1}",
+        "dropdown.listBackground": "{gray_level1}",        
         "editor.background": "{gray_level1}",
         "editor.findMatchBackground": "{blue}90",
         "editor.findMatchBorder": "{transparent}",
@@ -119,7 +132,7 @@ theme = f"""{{
         "editorBracketMatch.background": "{h_yellow}50",
         "editorBracketMatch.border": "{transparent}",
         "editorCodeLens.foreground": "{white}",
-        "editorCursor.background": "{unused()}",
+        "editorCursor.background": "{gray_level1}",
         "editorCursor.foreground": "{h_yellow}",
         "editorError.border": "{transparent}",
         "editorError.foreground": "{red}",
@@ -139,11 +152,14 @@ theme = f"""{{
         "editorHint.foreground": "{b_blue}",
         "editorHoverWidget.background": "{gray_level2}",
         "editorHoverWidget.border": "{gray_level3}",
+        "editorHoverWidget.foreground": "{white}",
         "editorHoverWidget.statusBarBackground": "{gray_level2}",
         "editorIndentGuide.activeBackground": "{gray_level5}",
         "editorIndentGuide.background": "{gray_level3}",
         "editorInfo.border": "{transparent}",
         "editorInfo.foreground": "{b_blue}", // zigzag lines for info
+        // "editorLightBulb.foreground": "{unused()}", // quick fix lightbulb color
+        // "editorLightBulbAutoFix.foreground": "{unused()}",
         "editorLineNumber.activeForeground": "{white}",
         "editorLineNumber.foreground": "{gray_level4}",
         "editorLink.activeForeground": "{h_yellow}",
@@ -198,6 +214,7 @@ theme = f"""{{
         "gitDecoration.modifiedResourceForeground": "{h_yellow}",
         "gitDecoration.submoduleResourceForeground": "{d_orange}",
         "gitDecoration.untrackedResourceForeground": "{b_cyan}",
+        "icon.foreground": "{white}",
         "imagePreview.border": "{transparent}",
         "input.background": "{gray_level2}",
         "input.border": "{gray_level3}",
@@ -218,6 +235,8 @@ theme = f"""{{
         "list.activeSelectionForeground": "{white}",
         "list.dropBackground": "{gray_level3}", // standard window background
         "list.errorForeground": "{red}", // file list error [standard red]
+        "list.filterMatchBackground": "{unused()}",
+        "list.filterMatchBorder": "{unused()}",
         "list.focusBackground": "{gray_level3}", // standard window background > no extrawurst for focus
         "list.focusForeground": "{white}",
         "list.highlightForeground": "{h_yellow}",
@@ -249,6 +268,7 @@ theme = f"""{{
         "merge.incomingContentBackground": "{transparent}",
         "merge.incomingHeaderBackground": "{transparent}",
         "minimap.findMatchHighlight": "{h_yellow}cc",
+        "minimap.selectionHighlight": "{unused()}",
         "notificationCenter.border": "{gray_level2}",
         "notificationCenterHeader.background": "{gray_level2}",
         "notificationCenterHeader.foreground": "{white}",
@@ -257,6 +277,9 @@ theme = f"""{{
         "notifications.background": "{gray_level2}",
         "notifications.border": "{transparent}",
         "notifications.foreground": "{white}",
+        // "notificationsErrorIcon.foreground": "{unused()}",
+        // "notificationsInfoIcon.foreground": "{unused()}",
+        // "notificationsWarningIcon.foreground": "{unused()}",
         "panel.background": "{gray_level2}",
         "panel.border": "{pure_black}",
         "panel.dropBackground": "{gray_level1}",
@@ -280,6 +303,9 @@ theme = f"""{{
         "peekViewTitleLabel.foreground": "{h_yellow}",
         "pickerGroup.border": "{gray_level1}",
         "pickerGroup.foreground": "{white}",
+        "problemsErrorIcon.foreground": "{unused()}",
+        "problemsInfoIcon.foreground": "{unused()}",
+        "problemsWarningIcon.foreground": "{unused()}",
         "progressBar.background": "{h_yellow}",
         "quickInput.background": "{gray_level2}",
         "quickInput.foreground": "{gray_level7}",
@@ -327,6 +353,39 @@ theme = f"""{{
         "statusBarItem.prominentHoverBackground": "{gray_level3}",
         "statusBarItem.remoteBackground": "{gray_level2}",
         "statusBarItem.remoteForeground": "{gray_level7}",
+        // "symbolIcon.arrayForeground": "{unused()}",
+        // "symbolIcon.booleanForeground": "{unused()}",
+        // "symbolIcon.classForeground": "{unused()}",
+        // "symbolIcon.colorForeground": "{unused()}",
+        // "symbolIcon.constantForeground": "{unused()}",
+        // "symbolIcon.constructorForeground": "{unused()}",
+        // "symbolIcon.enumeratorForeground": "{unused()}",
+        // "symbolIcon.enumeratorMemberForeground": "{unused()}",
+        // "symbolIcon.eventForeground": "{unused()}",
+        // "symbolIcon.fieldForeground": "{unused()}",
+        // "symbolIcon.fileForeground": "{unused()}",
+        // "symbolIcon.folderForeground": "{unused()}",
+        // "symbolIcon.functionForeground": "{unused()}",
+        // "symbolIcon.interfaceForeground": "{unused()}",
+        // "symbolIcon.keyForeground": "{unused()}",
+        // "symbolIcon.keywordForeground": "{unused()}",
+        // "symbolIcon.methodForeground": "{unused()}",
+        // "symbolIcon.moduleForeground": "{unused()}",
+        // "symbolIcon.namespaceForeground": "{unused()}",
+        // "symbolIcon.nullForeground": "{unused()}",
+        // "symbolIcon.numberForeground": "{unused()}",
+        // "symbolIcon.objectForeground": "{unused()}",
+        // "symbolIcon.operatorForeground": "{unused()}",
+        // "symbolIcon.packageForeground": "{unused()}",
+        // "symbolIcon.propertyForeground": "{unused()}",
+        // "symbolIcon.referenceForeground": "{unused()}",
+        // "symbolIcon.snippetForeground": "{unused()}",
+        // "symbolIcon.stringForeground": "{unused()}",
+        // "symbolIcon.structForeground": "{unused()}",
+        // "symbolIcon.textForeground": "{unused()}",
+        // "symbolIcon.typeParameterForeground": "{unused()}",
+        // "symbolIcon.unitForeground": "{unused()}",
+        // "symbolIcon.variableForeground": "{unused()}",
         "tab.activeBackground": "{gray_level1}",
         "tab.activeBorder": "{h_yellow}",
         "tab.activeBorderTop": "{transparent}", // Top Border on tab, not wanted > transparent
@@ -386,7 +445,9 @@ theme = f"""{{
         "welcomePage.background": "{gray_level1}",
         "welcomePage.buttonBackground": "{gray_level2}",
         "welcomePage.buttonHoverBackground": "{gray_level3}",
-        "widget.shadow": "{gray_level1}"
+        "widget.shadow": "{gray_level1}",
+        "window.activeBorder": "{transparent}",
+        "window.inactiveBorder": "{transparent}",
     }},
     "name": "Jungle Night",
     "tokenColors": [
