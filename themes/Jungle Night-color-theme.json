@@ -1,7 +1,7 @@
 {	
     "colors": {
         "activityBar.activeBackground": "#0F1519",
-        "activityBar.activeBorder": "#00000000",
+        "activityBar.activeBorder": "#dcdcdc",
         "activityBar.background": "#1E2428", // standard background
         "activityBar.border": "#000000", // standard border
         "activityBar.dropBackground": "#3E4246", // drag and drop

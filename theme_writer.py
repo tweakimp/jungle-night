@@ -55,7 +55,7 @@ def unused():
 theme = f"""{{	
     "colors": {{
         "activityBar.activeBackground": "{gray_level1}",
-        "activityBar.activeBorder": "{transparent}",
+        "activityBar.activeBorder": "{white}",
         "activityBar.background": "{gray_level2}", // standard background
         "activityBar.border": "{pure_black}", // standard border
         "activityBar.dropBackground": "{gray_level3}", // drag and drop
