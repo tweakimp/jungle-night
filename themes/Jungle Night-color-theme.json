@@ -409,6 +409,25 @@
             }
         },
         {
+            "name": "Python Builtins",
+            "scope": [
+                "support.function.builtin.python"
+                
+            ],
+            "settings": {
+                "foreground": "#fac863"
+            }
+        },
+        {
+            "name": "Python Specials",
+            "scope": [
+                "variable.parameter.function.language.special"
+            ],
+            "settings": {
+                "foreground": "#ff8080"
+            }
+        },
+        {
             "name": "Variable",
             "scope": [
                 "variable"
@@ -442,10 +461,11 @@
                 "punctuation.definition.tag.end.html",
                 "punctuation.definition.tag.html",
                 "punctuation.section.embedded",
-                "punctuation.separator.inheritance.php"
+                "punctuation.separator.inheritance.php",
+                "punctuation.definition.decorator.python"
             ],
             "settings": {
-                "foreground": "#59b3b3"
+                "foreground": "#ACAEAF"
             }
         },
         {

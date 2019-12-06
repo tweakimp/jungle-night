@@ -33,8 +33,6 @@ b_black = "#808080"  # function option color ("python -m")
 # other
 # hsv -> h, 60, 80
 d_orange = "#cc8f52"
-# hsv -> h, 50, 70
-symbol_cyan = "#59b3b3"
 # dark matt: hsv -> h, 25, 40
 dm_green = "#608060"  # "#526652"
 # dark: hsv -> h, 25, 50
@@ -43,7 +41,6 @@ d_green = "#608060"
 lm_green = "#8fbf8f"
 
 count = 0
-
 
 
 def unused():
@@ -463,6 +460,25 @@ theme = f"""{{
             }}
         }},
         {{
+            "name": "Python Builtins",
+            "scope": [
+                "support.function.builtin.python"
+                
+            ],
+            "settings": {{
+                "foreground": "{h_yellow}"
+            }}
+        }},
+        {{
+            "name": "Python Specials",
+            "scope": [
+                "variable.parameter.function.language.special"
+            ],
+            "settings": {{
+                "foreground": "{b_red}"
+            }}
+        }},
+        {{
             "name": "Variable",
             "scope": [
                 "variable"
@@ -496,10 +512,11 @@ theme = f"""{{
                 "punctuation.definition.tag.end.html",
                 "punctuation.definition.tag.html",
                 "punctuation.section.embedded",
-                "punctuation.separator.inheritance.php"
+                "punctuation.separator.inheritance.php",
+                "punctuation.definition.decorator.python"
             ],
             "settings": {{
-                "foreground": "{symbol_cyan}"
+                "foreground": "{gray_level6}"
             }}
         }},
         {{
