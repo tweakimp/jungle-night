@@ -56,10 +56,10 @@ theme = f"""{{
         "activityBar.background": "{gray_level2}", // standard background
         "activityBar.border": "{pure_black}", // standard border
         "activityBar.dropBackground": "{gray_level3}", // drag and drop
-        "activityBar.foreground": "{white}",
+        "activityBar.foreground": "{pure_white}",
         "activityBar.inactiveForeground": "{gray_level7}",
         "activityBarBadge.background": "{gray_level4}",
-        "activityBarBadge.foreground": "{white}",
+        "activityBarBadge.foreground": "{pure_white}",
         "badge.background": "{gray_level3}",
         "badge.foreground": "{white}",
         "breadcrumb.activeSelectionForeground": "{white}",
@@ -89,7 +89,7 @@ theme = f"""{{
         "debugToolBar.background": "{gray_level2}",
         "debugToolBar.border": "{h_yellow}",
         "descriptionForeground": "{white}",
-        "diffEditor.border": "{h_yellow}",
+        "diffEditor.border": "{transparent}",
         "diffEditor.insertedTextBackground": "{green}20",
         "diffEditor.insertedTextBorder": "{green}50",
         "diffEditor.removedTextBackground": "{red}20",
@@ -384,13 +384,13 @@ theme = f"""{{
         // "symbolIcon.unitForeground": "{unused()}",
         // "symbolIcon.variableForeground": "{unused()}",
         "tab.activeBackground": "{gray_level1}",
-        "tab.activeBorder": "{h_yellow}",
+        "tab.activeBorder": "{pure_white}",
         "tab.activeBorderTop": "{transparent}", // Top Border on tab, not wanted > transparent
         "tab.activeForeground": "{pure_white}",
         "tab.activeModifiedBorder": "{unused()}",
         "tab.border": "{gray_level1}", // border between tabs
         "tab.hoverBackground": "{gray_level3}",
-        "tab.hoverBorder": "{white}",
+        "tab.hoverBorder": "{transparent}",
         "tab.inactiveBackground": "{gray_level2}",
         "tab.inactiveForeground": "{white}",
         "tab.inactiveModifiedBorder": "{unused()}",
@@ -1038,3 +1038,4 @@ theme = f"""{{
 theme_file = "themes/Jungle Night-color-theme.json"
 with open(theme_file, "w") as file:
     file.write(theme)
+print(f"Saved theme to '{theme_file}'")

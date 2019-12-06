@@ -5,10 +5,10 @@
         "activityBar.background": "#1E2428", // standard background
         "activityBar.border": "#000000", // standard border
         "activityBar.dropBackground": "#3E4246", // drag and drop
-        "activityBar.foreground": "#dcdcdc",
+        "activityBar.foreground": "#ffffff",
         "activityBar.inactiveForeground": "#BCBDBE",
         "activityBarBadge.background": "#4E5255",
-        "activityBarBadge.foreground": "#dcdcdc",
+        "activityBarBadge.foreground": "#ffffff",
         "badge.background": "#3E4246",
         "badge.foreground": "#dcdcdc",
         "breadcrumb.activeSelectionForeground": "#dcdcdc",
@@ -38,7 +38,7 @@
         "debugToolBar.background": "#1E2428",
         "debugToolBar.border": "#fac863",
         "descriptionForeground": "#dcdcdc",
-        "diffEditor.border": "#fac863",
+        "diffEditor.border": "#00000000",
         "diffEditor.insertedTextBackground": "#45e54520",
         "diffEditor.insertedTextBorder": "#45e54550",
         "diffEditor.removedTextBackground": "#e5454520",
@@ -333,13 +333,13 @@
         // "symbolIcon.unitForeground": "#ff58ff",
         // "symbolIcon.variableForeground": "#ff59ff",
         "tab.activeBackground": "#0F1519",
-        "tab.activeBorder": "#fac863",
+        "tab.activeBorder": "#ffffff",
         "tab.activeBorderTop": "#00000000", // Top Border on tab, not wanted > transparent
         "tab.activeForeground": "#ffffff",
         "tab.activeModifiedBorder": "#ff60ff",
         "tab.border": "#0F1519", // border between tabs
         "tab.hoverBackground": "#3E4246",
-        "tab.hoverBorder": "#dcdcdc",
+        "tab.hoverBorder": "#00000000",
         "tab.inactiveBackground": "#1E2428",
         "tab.inactiveForeground": "#dcdcdc",
         "tab.inactiveModifiedBorder": "#ff61ff",
