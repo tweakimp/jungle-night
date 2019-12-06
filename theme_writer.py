@@ -51,7 +51,7 @@ def unused():
 
 theme = f"""{{	
     "colors": {{
-        "activityBar.activeBackground": "{gray_level1}",
+        "activityBar.activeBackground": "{transparent}",
         "activityBar.activeBorder": "{white}",
         "activityBar.background": "{gray_level2}", // standard background
         "activityBar.border": "{pure_black}", // standard border
@@ -232,8 +232,8 @@ theme = f"""{{
         "list.activeSelectionForeground": "{white}",
         "list.dropBackground": "{gray_level3}", // standard window background
         "list.errorForeground": "{red}", // file list error [standard red]
-        "list.filterMatchBackground": "{unused()}",
-        "list.filterMatchBorder": "{unused()}",
+        "list.filterMatchBackground": "{blue}90",
+        "list.filterMatchBorder": "{transparent}",
         "list.focusBackground": "{gray_level3}", // standard window background > no extrawurst for focus
         "list.focusForeground": "{white}",
         "list.highlightForeground": "{h_yellow}",
