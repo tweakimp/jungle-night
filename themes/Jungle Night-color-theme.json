@@ -40,10 +40,10 @@
         "debugToolBar.border": "#fac863",
         "descriptionForeground": "#dcdcdc",
         "diffEditor.border": "#00000000",
-        "diffEditor.insertedTextBackground": "#45e54530",
-        "diffEditor.insertedTextBorder": "#45e54560",
-        "diffEditor.removedTextBackground": "#e5454530",
-        "diffEditor.removedTextBorder": "#e5454560",
+        "diffEditor.insertedTextBackground": "#45e54515",
+        "diffEditor.insertedTextBorder": "#45e54540",
+        "diffEditor.removedTextBackground": "#e5454515",
+        "diffEditor.removedTextBorder": "#e5454540",
         "dropdown.background": "#0F1519",
         "dropdown.border": "#0F1519",
         "dropdown.foreground": "#dcdcdc",
@@ -263,8 +263,8 @@
         "progressBar.background": "#fac863",
         "quickInput.background": "#1E2428",
         "quickInput.foreground": "#BCBDBE",
-        "scrollbar.shadow": "#000000cc",
-        "scrollbarSlider.activeBackground": "#fac863",
+        "scrollbar.shadow": "#0F1519",
+        "scrollbarSlider.activeBackground": "#0F1519",
         "scrollbarSlider.background": "#6D7073",
         "scrollbarSlider.hoverBackground": "#dcdcdc",
         "searchEditor.findMatchBackground": "#ff08ff",
@@ -659,7 +659,7 @@
             ],
             "settings": {
                 "fontStyle": "bold",
-                "foreground": "#4545e5"
+                "foreground": "#8080ff"
             }
         },
         {

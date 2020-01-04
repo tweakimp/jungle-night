@@ -92,10 +92,10 @@ theme = f"""{{
         "debugToolBar.border": "{h_yellow}",
         "descriptionForeground": "{white}",
         "diffEditor.border": "{transparent}",
-        "diffEditor.insertedTextBackground": "{green}30",
-        "diffEditor.insertedTextBorder": "{green}60",
-        "diffEditor.removedTextBackground": "{red}30",
-        "diffEditor.removedTextBorder": "{red}60",
+        "diffEditor.insertedTextBackground": "{green}15",
+        "diffEditor.insertedTextBorder": "{green}40",
+        "diffEditor.removedTextBackground": "{red}15",
+        "diffEditor.removedTextBorder": "{red}40",
         "dropdown.background": "{gray_level1}",
         "dropdown.border": "{gray_level1}",
         "dropdown.foreground": "{white}",
@@ -315,8 +315,8 @@ theme = f"""{{
         "progressBar.background": "{h_yellow}",
         "quickInput.background": "{gray_level2}",
         "quickInput.foreground": "{gray_level7}",
-        "scrollbar.shadow": "{pure_black}cc",
-        "scrollbarSlider.activeBackground": "{h_yellow}",
+        "scrollbar.shadow": "{gray_level1}",
+        "scrollbarSlider.activeBackground": "{gray_level1}",
         "scrollbarSlider.background": "{gray_level5}",
         "scrollbarSlider.hoverBackground": "{white}",
         "searchEditor.findMatchBackground": "{unused()}",
@@ -711,7 +711,7 @@ theme = f"""{{
             ],
             "settings": {{
                 "fontStyle": "bold",
-                "foreground": "{blue}"
+                "foreground": "{b_blue}"
             }}
         }},
         {{
