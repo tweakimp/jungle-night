@@ -316,7 +316,7 @@ theme = f"""{{
         "quickInput.background": "{gray_level2}",
         "quickInput.foreground": "{gray_level7}",
         "scrollbar.shadow": "{gray_level1}",
-        "scrollbarSlider.activeBackground": "{gray_level1}",
+        "scrollbarSlider.activeBackground": "{white}",
         "scrollbarSlider.background": "{gray_level5}",
         "scrollbarSlider.hoverBackground": "{white}",
         "searchEditor.findMatchBackground": "{unused()}",

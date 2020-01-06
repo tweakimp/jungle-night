@@ -264,7 +264,7 @@
         "quickInput.background": "#1E2428",
         "quickInput.foreground": "#BCBDBE",
         "scrollbar.shadow": "#0F1519",
-        "scrollbarSlider.activeBackground": "#0F1519",
+        "scrollbarSlider.activeBackground": "#dcdcdc",
         "scrollbarSlider.background": "#6D7073",
         "scrollbarSlider.hoverBackground": "#dcdcdc",
         "searchEditor.findMatchBackground": "#ff08ff",
