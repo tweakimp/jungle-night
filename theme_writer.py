@@ -115,9 +115,9 @@ theme = f"""{{
         "editor.lineHighlightBorder": "{transparent}", // border around current line
         "editor.rangeHighlightBackground": "{gray_level4}15", // slight highlight for current line
         "editor.rangeHighlightBorder": "{h_yellow}", // border around current search result
-        "editor.selectionBackground": "{gray_level4}40",
+        "editor.selectionBackground": "{gray_level4}50",
         "editor.selectionForeground": "{white}",
-        "editor.selectionHighlightBackground": "{gray_level4}40",
+        "editor.selectionHighlightBackground": "{gray_level4}50",
         "editor.selectionHighlightBorder": "{transparent}",
         "editor.snippetFinalTabstopHighlightBackground": "{transparent}",
         "editor.snippetFinalTabstopHighlightBorder": "{transparent}",
@@ -433,7 +433,7 @@ theme = f"""{{
         "terminal.background": "{gray_level2}",
         "terminal.border": "{white}",
         "terminal.foreground": "{white}",
-        "terminal.selectionBackground": "{h_yellow}50",
+        "terminal.selectionBackground": "{gray_level4}50",
         "terminalCursor.background": "{black}",
         "terminalCursor.foreground": "{h_yellow}",
         "textBlockQuote.background": "{gray_level2}",

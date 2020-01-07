@@ -63,9 +63,9 @@
         "editor.lineHighlightBorder": "#00000000", // border around current line
         "editor.rangeHighlightBackground": "#4E525515", // slight highlight for current line
         "editor.rangeHighlightBorder": "#fac863", // border around current search result
-        "editor.selectionBackground": "#4E525540",
+        "editor.selectionBackground": "#4E525550",
         "editor.selectionForeground": "#dcdcdc",
-        "editor.selectionHighlightBackground": "#4E525540",
+        "editor.selectionHighlightBackground": "#4E525550",
         "editor.selectionHighlightBorder": "#00000000",
         "editor.snippetFinalTabstopHighlightBackground": "#00000000",
         "editor.snippetFinalTabstopHighlightBorder": "#00000000",
@@ -381,7 +381,7 @@
         "terminal.background": "#1E2428",
         "terminal.border": "#dcdcdc",
         "terminal.foreground": "#dcdcdc",
-        "terminal.selectionBackground": "#fac86350",
+        "terminal.selectionBackground": "#4E525550",
         "terminalCursor.background": "#0F1519",
         "terminalCursor.foreground": "#fac863",
         "textBlockQuote.background": "#1E2428",
