@@ -1,10 +1,10 @@
-{	
+{
     "colors": {
         "activityBar.activeBackground": "#00000000",
         "activityBar.activeBorder": "#ffffff",
         "activityBar.activeFocusBorder": "#ffffff",
         "activityBar.background": "#1E2428", // standard background
-        "activityBar.border": "#000000", // standard border
+        "activityBar.border": "#00000000", // border to the right of the whole activity bar
         "activityBar.dropBackground": "#3E4246", // drag and drop
         "activityBar.foreground": "#ffffff",
         "activityBar.inactiveForeground": "#BCBDBE",
@@ -133,7 +133,7 @@
         "editorOverviewRuler.wordHighlightForeground": "#00000000",
         "editorOverviewRuler.wordHighlightStrongForeground": "#00000000",
         "editorPane.background": "#1E2428",
-        "editorRuler.foreground": "#45e545",
+        "editorRuler.foreground": "#4E5255",
         "editorSuggestWidget.background": "#1E2428",
         "editorSuggestWidget.border": "#0F1519",
         "editorSuggestWidget.foreground": "#dcdcdc",
@@ -238,9 +238,9 @@
         "panel.border": "#000000",
         "panel.dropBackground": "#0F1519",
         "panelInput.border": "#ff07ff",
-        "panelTitle.activeBorder": "#fac863",
-        "panelTitle.activeForeground": "#fac863",
-        "panelTitle.inactiveForeground": "#dcdcdc",
+        "panelTitle.activeBorder": "#ff08ff",
+        "panelTitle.activeForeground": "#ffffff",
+        "panelTitle.inactiveForeground": "#ACAEAF",
         "peekView.border": "#3E4246",
         "peekViewEditor.background": "#0F1519",
         "peekViewEditor.matchHighlightBackground": "#1E2428bb",
@@ -267,8 +267,8 @@
         "scrollbarSlider.activeBackground": "#dcdcdc",
         "scrollbarSlider.background": "#6D7073",
         "scrollbarSlider.hoverBackground": "#dcdcdc",
-        "searchEditor.findMatchBackground": "#ff08ff",
-        "searchEditor.findMatchBorder": "#ff09ff",
+        "searchEditor.findMatchBackground": "#ff09ff",
+        "searchEditor.findMatchBorder": "#ff10ff",
         "selection.background": "#dcdcdc",
         "settings.checkboxBackground": "#1E2428",
         "settings.checkboxBorder": "#3E4246",
@@ -276,7 +276,7 @@
         "settings.dropdownBackground": "#1E2428",
         "settings.dropdownBorder": "#3E4246",
         "settings.dropdownForeground": "#dcdcdc",
-        "settings.dropdownListBorder": "#ff10ff",
+        "settings.dropdownListBorder": "#ff11ff",
         "settings.headerForeground": "#fac863",
         "settings.modifiedItemIndicator": "#cc8f52",
         "settings.numberInputBackground": "#1E2428",
@@ -343,25 +343,25 @@
         // "symbolIcon.unitForeground": "",
         // "symbolIcon.variableForeground": "",
         "tab.activeBackground": "#0F1519",
-        "tab.activeBorder": "#ffffff",
+        "tab.activeBorder": "#dcdcdc",
         "tab.activeBorderTop": "#00000000", // Top Border on tab, not wanted > transparent
-        "tab.activeForeground": "#ffffff",
-        "tab.activeModifiedBorder": "#ff11ff",
+        "tab.activeForeground": "#dcdcdc",
+        "tab.activeModifiedBorder": "#ff12ff",
         "tab.border": "#0F1519", // border between tabs
         "tab.hoverBackground": "#3E4246",
         "tab.hoverBorder": "#00000000",
         "tab.inactiveBackground": "#1E2428",
         "tab.inactiveForeground": "#dcdcdc",
-        "tab.inactiveModifiedBorder": "#ff12ff",
+        "tab.inactiveModifiedBorder": "#ff13ff",
         "tab.unfocusedActiveBackground": "#0F1519",
         "tab.unfocusedActiveBorder": "#dcdcdc",
         "tab.unfocusedActiveBorderTop": "#00000000", // Top Border on tab, not wanted > transparent
         "tab.unfocusedActiveForeground": "#ffffff",
-        "tab.unfocusedActiveModifiedBorder": "#ff13ff",
+        "tab.unfocusedActiveModifiedBorder": "#ff14ff",
         "tab.unfocusedHoverBackground": "#3E4246",
         "tab.unfocusedHoverBorder": "#dcdcdc",
         "tab.unfocusedInactiveForeground": "#dcdcdc",
-        "tab.unfocusedInactiveModifiedBorder": "#ff14ff",
+        "tab.unfocusedInactiveModifiedBorder": "#ff15ff",
         "terminal.ansiBlack": "#0F1519",
         "terminal.ansiBlue": "#4545e5",
         "terminal.ansiBrightBlack": "#808080", // function option color ("python -m")

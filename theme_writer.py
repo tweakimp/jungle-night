@@ -37,7 +37,7 @@ d_orange = "#cc8f52"
 # dark matt: hsv -> h, 25, 40
 dm_green = "#608060"  # "#526652"
 # dark: hsv -> h, 25, 50
-d_green = "#608060"
+# d_green = "#608060"
 # light matt: hsv -> h, 25, 75
 lm_green = "#8fbf8f"
 
@@ -50,13 +50,13 @@ def unused():
     return f"#ff{count:02}ff"
 
 
-theme = f"""{{	
+theme = f"""{{
     "colors": {{
         "activityBar.activeBackground": "{transparent}",
         "activityBar.activeBorder": "{pure_white}",
         "activityBar.activeFocusBorder": "{pure_white}",
         "activityBar.background": "{gray_level2}", // standard background
-        "activityBar.border": "{pure_black}", // standard border
+        "activityBar.border": "{transparent}", // border to the right of the whole activity bar
         "activityBar.dropBackground": "{gray_level3}", // drag and drop
         "activityBar.foreground": "{pure_white}",
         "activityBar.inactiveForeground": "{gray_level7}",
@@ -185,7 +185,7 @@ theme = f"""{{
         "editorOverviewRuler.wordHighlightForeground": "{transparent}",
         "editorOverviewRuler.wordHighlightStrongForeground": "{transparent}",
         "editorPane.background": "{gray_level2}",
-        "editorRuler.foreground": "{green}",
+        "editorRuler.foreground": "{gray_level4}",
         "editorSuggestWidget.background": "{gray_level2}",
         "editorSuggestWidget.border": "{gray_level1}",
         "editorSuggestWidget.foreground": "{white}",
@@ -290,9 +290,9 @@ theme = f"""{{
         "panel.border": "{pure_black}",
         "panel.dropBackground": "{gray_level1}",
         "panelInput.border": "{unused()}",
-        "panelTitle.activeBorder": "{h_yellow}",
-        "panelTitle.activeForeground": "{h_yellow}",
-        "panelTitle.inactiveForeground": "{white}",
+        "panelTitle.activeBorder": "{unused()}",
+        "panelTitle.activeForeground": "{pure_white}",
+        "panelTitle.inactiveForeground": "{gray_level6}",
         "peekView.border": "{gray_level3}",
         "peekViewEditor.background": "{gray_level1}",
         "peekViewEditor.matchHighlightBackground": "{gray_level2}bb",
@@ -395,9 +395,9 @@ theme = f"""{{
         // "symbolIcon.unitForeground": "{unthemed}",
         // "symbolIcon.variableForeground": "{unthemed}",
         "tab.activeBackground": "{gray_level1}",
-        "tab.activeBorder": "{pure_white}",
+        "tab.activeBorder": "{white}",
         "tab.activeBorderTop": "{transparent}", // Top Border on tab, not wanted > transparent
-        "tab.activeForeground": "{pure_white}",
+        "tab.activeForeground": "{white}",
         "tab.activeModifiedBorder": "{unused()}",
         "tab.border": "{gray_level1}", // border between tabs
         "tab.hoverBackground": "{gray_level3}",
