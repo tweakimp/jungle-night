@@ -20,7 +20,7 @@ gray_level7 = "#BCBDBE"
 red = "#e54545"
 yellow = "#e5e545"
 green = "#45e545"
-cyan = "#45e6e5"
+cyan = "#45e5e5"
 blue = "#4545e5"
 magenta = "#e545e5"
 # bright: hsv -> h, 50, 100
@@ -83,7 +83,7 @@ theme = f"""{{
         "debugIcon.breakpointDisabledForeground": "{gray_level4}",
         "debugIcon.breakpointForeground": "{red}",
         "debugIcon.breakpointStackframeForeground": "{h_yellow}",
-        // "debugIcon.breakpointUnverifiedForeground": "{unused()}", // dont know where this is
+        "debugIcon.breakpointUnverifiedForeground": "{red}",
         // "debugIcon.continueForeground": "{unthemed}",
         // "debugIcon.disconnectForeground": "{unthemed}",
         // "debugIcon.pauseForeground": "{unthemed}",
@@ -93,19 +93,19 @@ theme = f"""{{
         // "debugIcon.stepOutForeground": "{unthemed}",
         // "debugIcon.stepOverForeground": "{unthemed}",
         // "debugIcon.stopForeground": "{unthemed}",
-        // "debugTokenExpression.boolean": "{unused()}",
-        // "debugTokenExpression.error": "{unused()}",
-        // "debugTokenExpression.name": "{unused()}",
-        // "debugTokenExpression.number": "{unused()}",
-        // "debugTokenExpression.string": "{unused()}",
-        // "debugTokenExpression.value": "{unused()}",
+        // "debugTokenExpression.boolean": "{unthemed}",
+        // "debugTokenExpression.error": "{unthemed}",
+        // "debugTokenExpression.name": "{unthemed}",
+        // "debugTokenExpression.number": "{unthemed}",
+        // "debugTokenExpression.string": "{unthemed}",
+        // "debugTokenExpression.value": "{unthemed}",
         "debugToolBar.background": "{gray_level2}",
         "debugToolBar.border": "{h_yellow}",
-        // "debugView.exceptionLabelBackground": "{unused()}",
-        // "debugView.exceptionLabelForeground": "{unused()}",
-        // "debugView.stateLabelBackground": "{unused()}",
-        // "debugView.stateLabelForeground": "{unused()}",
-        // "debugView.valueChangedHighlight": "{unused()}",
+        // "debugView.exceptionLabelBackground": "{unthemed}",
+        // "debugView.exceptionLabelForeground": "{unthemed}",
+        // "debugView.stateLabelBackground": "{unthemed}",
+        // "debugView.stateLabelForeground": "{unthemed}",
+        // "debugView.valueChangedHighlight": "{unthemed}",
         "descriptionForeground": "{white}",
         "diffEditor.border": "{transparent}",
         "diffEditor.diagonalFill": "{gray_level2}",
@@ -189,7 +189,7 @@ theme = f"""{{
         "editorMarkerNavigationInfo.background": "{b_blue}",
         "editorMarkerNavigationWarning.background": "{b_yellow}",
         "editorOverviewRuler.addedForeground": "{green}",
-        "editorOverviewRuler.background": "{unused()}",
+        "editorOverviewRuler.background": "{gray_level2}",
         "editorOverviewRuler.border": "{transparent}",
         "editorOverviewRuler.bracketMatchForeground": "{h_yellow}",
         "editorOverviewRuler.commonContentForeground": "{h_yellow}",
