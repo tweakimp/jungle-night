@@ -436,8 +436,8 @@
         "welcomePage.buttonBackground": "#1E2428",
         "welcomePage.buttonHoverBackground": "#3E4246",
         "widget.shadow": "#0F1519",
-        "window.activeBorder": "#1E2428",
-        "window.inactiveBorder": "#1E2428"
+        // "window.activeBorder": "#1E2428",
+        // "window.inactiveBorder": "#1E2428"
     },
     "name": "Jungle Night",
     "tokenColors": [

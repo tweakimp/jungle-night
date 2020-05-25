@@ -488,8 +488,8 @@ theme = f"""{{
         "welcomePage.buttonBackground": "{gray_level2}",
         "welcomePage.buttonHoverBackground": "{gray_level3}",
         "widget.shadow": "{gray_level1}",
-        "window.activeBorder": "{gray_level2}",
-        "window.inactiveBorder": "{gray_level2}"
+        // "window.activeBorder": "{gray_level2}",
+        // "window.inactiveBorder": "{gray_level2}"
     }},
     "name": "Jungle Night",
     "tokenColors": [
