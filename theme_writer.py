@@ -56,8 +56,8 @@ theme = f"""{{
         "activityBar.activeBorder": "{pure_white}",
         "activityBar.activeFocusBorder": "{pure_white}",
         "activityBar.background": "{gray_level2}", // standard background
-        "activityBar.border": "{transparent}", // border to the right of the whole activity bar
-        "activityBar.dropBackground": "{gray_level3}", // drag and drop
+        "activityBar.border": "{gray_level1}", // border to the right of the whole activity bar
+        "activityBar.dropBorder": "{gray_level4}", // border between icons while dragging
         "activityBar.foreground": "{pure_white}",
         "activityBar.inactiveForeground": "{gray_level7}",
         "activityBarBadge.background": "{gray_level4}",
@@ -77,6 +77,11 @@ theme = f"""{{
         "checkbox.foreground": "{unused()}",
         "contrastActiveBorder": "{transparent}",
         "contrastBorder": "{transparent}",
+        "debugConsole.errorForeground": "{red}",
+        "debugConsole.infoForeground": "{green}", // stdout
+        "debugConsole.sourceForeground": "{blue}",
+        "debugConsole.warningForeground": "{yellow}",
+        "debugConsoleInputIcon.foreground": "{gray_level6}", // little arrow that indicates an input in debug console
         "debugExceptionWidget.background": "{gray_level2}",
         "debugExceptionWidget.border": "{white}",
         "debugIcon.breakpointCurrentStackframeForeground": "{h_yellow}",
@@ -100,7 +105,7 @@ theme = f"""{{
         // "debugTokenExpression.string": "{unthemed}",
         // "debugTokenExpression.value": "{unthemed}",
         "debugToolBar.background": "{gray_level2}",
-        "debugToolBar.border": "{h_yellow}",
+        "debugToolBar.border": "{b_green}",
         // "debugView.exceptionLabelBackground": "{unthemed}",
         // "debugView.exceptionLabelForeground": "{unthemed}",
         // "debugView.stateLabelBackground": "{unthemed}",
@@ -217,7 +222,7 @@ theme = f"""{{
         "editorWarning.border": "{transparent}",
         "editorWarning.foreground": "{h_yellow}",
         "editorWhitespace.foreground": "{gray_level4}",
-        "editorWidget.background": "{gray_level1}",
+        "editorWidget.background": "{gray_level2}",
         "editorWidget.border": "{gray_level3}",
         "editorWidget.foreground": "{gray_level7}",
         "editorWidget.resizeBorder": "{h_yellow}",
@@ -242,6 +247,7 @@ theme = f"""{{
         "input.border": "{gray_level3}",
         "input.foreground": "{white}",
         "input.placeholderForeground": "{white}",
+        "inputOption.activeForeground": "{white}",
         "inputOption.activeBackground": "{gray_level1}",
         "inputOption.activeBorder": "{h_yellow}",
         "inputValidation.errorBackground": "{gray_level2}",
@@ -301,6 +307,8 @@ theme = f"""{{
         // "minimapSlider.activeBackground": "{unthemed}",
         // "minimapSlider.background": "{unthemed}",
         // "minimapSlider.hoverBackground": "{unthemed}",
+        "notebook.cellBorderColor": "{unused()}",
+        "notebook.cellStatusBarItemHoverBackground": "{unused()}",
         "notebook.cellToolbarSeperator": "{unused()}",
         "notebook.focusedCellIndicator": "{unused()}",
         "notebook.outputContainerBackgroundColor": "{unused()}",
@@ -317,8 +325,13 @@ theme = f"""{{
         // "notificationsWarningIcon.foreground": "{unthemed}",
         "panel.background": "{gray_level2}",
         "panel.border": "{pure_black}",
-        "panel.dropBackground": "{gray_level1}",
+        "panel.dropBorder": "{gray_level4}",
         "panelInput.border": "{unused()}",
+        "panelSection.border": "{unused()}",
+        "panelSection.dropBackground": "{unused()}",
+        "panelSectionHeader.background": "{unused()}",
+        "panelSectionHeader.border": "{unused()}",
+        "panelSectionHeader.foreground": "{unused()}",
         "panelTitle.activeBorder": "{pure_white}",
         "panelTitle.activeForeground": "{pure_white}",
         "panelTitle.inactiveForeground": "{gray_level6}",
@@ -505,16 +518,16 @@ theme = f"""{{
             }}
         }},
         {{
-            "name": "Python Builtins",
+            "name": "Builtins",
             "scope": [
-                "support.function.builtin.python"
+                "support.function.builtin"
             ],
             "settings": {{
                 "foreground": "{h_yellow}"
             }}
         }},
         {{
-            "name": "Python Specials",
+            "name": "Specials",
             "scope": [
                 "variable.parameter.function.language.special"
             ],
@@ -1021,34 +1034,6 @@ theme = f"""{{
             ],
             "settings": {{
                 "foreground": "{b_blue}"
-            }}
-        }},
-        {{
-            "name": "[TYPESCRIPT] - Entity Name Type",
-            "scope": "source.ts entity.name.type",
-            "settings": {{
-                "foreground": "{h_yellow}"
-            }}
-        }},
-        {{
-            "name": "[TYPESCRIPT] - Keyword",
-            "scope": "source.ts keyword",
-            "settings": {{
-                "foreground": "{dm_green}"
-            }}
-        }},
-        {{
-            "name": "[TYPESCRIPT] - Punctuation Parameters",
-            "scope": "source.ts punctuation.definition.parameters",
-            "settings": {{
-                "foreground": "{b_cyan}"
-            }}
-        }},
-        {{
-            "name": "[TYPESCRIPT] - Punctuation Arrow Parameters",
-            "scope": "meta.arrow.ts punctuation.definition.parameters",
-            "settings": {{
-                "foreground": "{b_cyan}"
             }}
         }},
         {{
