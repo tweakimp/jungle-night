@@ -154,7 +154,7 @@ theme = f"""{{
         "editor.symbolHighlightBackground": "{transparent}",
         "editor.symbolHighlightBorder": "{b_green}",
         "editor.wordHighlightBackground": "{h_yellow}30",
-        "editor.wordHighlightBorder": "{h_yellow}",
+        "editor.wordHighlightBorder": "{transparent}",
         "editor.wordHighlightStrongBackground": "{transparent}",
         "editor.wordHighlightStrongBorder": "{transparent}",
         "editorBracketMatch.background": "{h_yellow}50",
