@@ -477,7 +477,8 @@
             "name": "Builtins",
             "scope": [
                 "support",
-                "support.function.magic"
+                "support.function.magic",
+                "support.function.builtin"
             ],
             "settings": {
                 "foreground": "#ffcc66"
