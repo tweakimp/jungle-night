@@ -1,6 +1,6 @@
 # colors
 # standard
-h_yellow = "#fac863"
+h_yellow = "#ffcc66"
 white = "#dcdcdc"
 black = "#0F1519"
 transparent = "#00000000"
@@ -519,8 +519,7 @@ theme = f"""{{
             "name": "Comment",
             "scope": [
                 "comment",
-                "punctuation.definition.comment",
-                "string.quoted.docstring.multi"
+                "string.quoted.docstring"
             ],
             "settings": {{
                 "foreground": "{gray_level5}"
@@ -529,7 +528,8 @@ theme = f"""{{
         {{
             "name": "Builtins",
             "scope": [
-                "support.function.builtin"
+                "support",
+                "support.function.magic"
             ],
             "settings": {{
                 "foreground": "{h_yellow}"
@@ -538,6 +538,7 @@ theme = f"""{{
         {{
             "name": "Specials",
             "scope": [
+                "variable.language.special",
                 "variable.parameter.function.language.special"
             ],
             "settings": {{
@@ -557,29 +558,18 @@ theme = f"""{{
             "name": "Keyword, Storage",
             "scope": [
                 "keyword",
-                "storage.modifier",
-                "storage.type",
-                "storage.type.class.js"
+                "storage"
             ],
             "settings": {{
                 "foreground": "{dm_green}"
             }}
         }},
         {{
-            "name": "Operator, Misc",
+            "name": "Operator, Punctuation",
             "scope": [
-                "constant.other.color",
                 "keyword.operator",
-                "keyword.other.substitution",
-                "keyword.other.template",
-                "punctuation",
-                "punctuation.definition.tag",
-                "punctuation.definition.tag.begin.html",
-                "punctuation.definition.tag.end.html",
-                "punctuation.definition.tag.html",
-                "punctuation.section.embedded",
-                "punctuation.separator.inheritance.php",
-                "punctuation.definition.decorator.python"
+                "punctuation.separator",
+                "punctuation.definition.parameters"
             ],
             "settings": {{
                 "foreground": "{gray_level6}"
