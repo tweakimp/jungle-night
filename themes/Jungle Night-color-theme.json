@@ -314,6 +314,7 @@
         "quickInput.background": "#1E2428",
         "quickInput.foreground": "#dcdcdc",
         "quickInputTitle.background": "#1E2428",
+        "sash.hoverBorder": "#BCBDBE",
         "scrollbar.shadow": "#0F1519",
         "scrollbarSlider.activeBackground": "#dcdcdc",
         "scrollbarSlider.background": "#6D7073",
@@ -614,6 +615,6 @@
                 "foreground": "#8080ff"
             }
         },
-    ],
+            ],
     "type": "dark"
 }

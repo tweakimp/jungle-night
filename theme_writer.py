@@ -366,6 +366,7 @@ theme = f"""{{
         "quickInput.background": "{gray_level2}",
         "quickInput.foreground": "{white}",
         "quickInputTitle.background": "{gray_level2}",
+        "sash.hoverBorder": "{gray_level7}",
         "scrollbar.shadow": "{gray_level1}",
         "scrollbarSlider.activeBackground": "{white}",
         "scrollbarSlider.background": "{gray_level5}",
@@ -529,7 +530,8 @@ theme = f"""{{
             "name": "Builtins",
             "scope": [
                 "support",
-                "support.function.magic"
+                "support.function.magic",
+                "support.function.builtin"
             ],
             "settings": {{
                 "foreground": "{h_yellow}"
