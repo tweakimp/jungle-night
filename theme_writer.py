@@ -550,7 +550,8 @@ theme = f"""{{
         {{
             "name": "Variable",
             "scope": [
-                "variable"
+                "variable",
+                "string.unquoted"
             ],
             "settings": {{
                 "foreground": "{white}"
@@ -571,7 +572,8 @@ theme = f"""{{
             "scope": [
                 "keyword.operator",
                 "punctuation.separator",
-                "punctuation.definition.parameters"
+                "punctuation.definition.parameters",
+                "punctuation.definition.tag"
             ],
             "settings": {{
                 "foreground": "{gray_level6}"
@@ -581,11 +583,9 @@ theme = f"""{{
             "name": "Tag",
             "scope": [
                 "entity.name.tag",
-                "markup.deleted.gigutter",
-                "meta.tag.sgml"
             ],
             "settings": {{
-                "foreground": "{red}"
+                "foreground": "{dm_green}"
             }}
         }},
         {{

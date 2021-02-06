@@ -498,7 +498,8 @@
         {
             "name": "Variable",
             "scope": [
-                "variable"
+                "variable",
+                "string.unquoted"
             ],
             "settings": {
                 "foreground": "#dcdcdc"
@@ -519,7 +520,8 @@
             "scope": [
                 "keyword.operator",
                 "punctuation.separator",
-                "punctuation.definition.parameters"
+                "punctuation.definition.parameters",
+                "punctuation.definition.tag"
             ],
             "settings": {
                 "foreground": "#ACAEAF"
@@ -529,11 +531,9 @@
             "name": "Tag",
             "scope": [
                 "entity.name.tag",
-                "markup.deleted.gigutter",
-                "meta.tag.sgml"
             ],
             "settings": {
-                "foreground": "#e54545"
+                "foreground": "#608060"
             }
         },
         {
