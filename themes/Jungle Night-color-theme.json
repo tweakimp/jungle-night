@@ -273,7 +273,7 @@
         "searchEditor.findMatchBackground": "#4545e590",
         "searchEditor.findMatchBorder": "#00000000",
         "searchEditor.textInputBorder": "#3E4246",
-        "selection.background": "#dcdcdc",
+        "selection.background": "#6D7073",
         "settings.checkboxBackground": "#1E2428",
         "settings.checkboxBorder": "#3E4246",
         "settings.checkboxForeground": "#dcdcdc",

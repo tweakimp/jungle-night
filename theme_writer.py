@@ -316,7 +316,7 @@ theme = f"""{{
         "searchEditor.findMatchBackground": "{blue}90",
         "searchEditor.findMatchBorder": "{transparent}",
         "searchEditor.textInputBorder": "{gray_level3}",
-        "selection.background": "{white}",
+        "selection.background": "{gray_level5}",
         "settings.checkboxBackground": "{gray_level2}",
         "settings.checkboxBorder": "{gray_level3}",
         "settings.checkboxForeground": "{white}",
