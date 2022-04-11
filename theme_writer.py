@@ -1,11 +1,11 @@
 # colors
 # standard
-h_yellow = "#ffcc66"
-white = "#dcdcdc"
+h_yellow = "#FFCC66"
+white = "#DCDCDC"
 black = "#0F1519"
 transparent = "#00000000"
 unthemed = ""
-pure_white = "#ffffff"
+pure_white = "#FFFFFF"
 pure_black = "#000000"
 
 gray_level1 = "#0F1519"
@@ -17,29 +17,29 @@ gray_level6 = "#ACAEAF"
 gray_level7 = "#BCBDBE"
 
 # normal: hsv -> h, 70, 90
-red = "#e54545"
-yellow = "#e5e545"
-green = "#45e545"
-cyan = "#45e5e5"
-blue = "#4545e5"
-magenta = "#e545e5"
+red = "#E54545"
+yellow = "#E5E545"
+green = "#45E545"
+cyan = "#45E5E5"
+blue = "#4545E5"
+magenta = "#E545E5"
 # bright: hsv -> h, 50, 100
-b_red = "#ff8080"
-b_yellow = "#ffff80"
-b_green = "#80ff80"
-b_cyan = "#80ffff"
-b_blue = "#8080ff"
-b_magenta = "#ff80ff"
+b_red = "#FF8080"
+b_yellow = "#FFFF80"
+b_green = "#80FF80"
+b_cyan = "#80FFFF"
+b_blue = "#8080FF"
+b_magenta = "#FF80FF"
 b_black = "#808080"  # function option color ("python -m")
 # other
 # hsv -> h, 60, 80
-d_orange = "#cc8f52"
+d_orange = "#CC8F52"
 # dark matt: hsv -> h, 25, 40
 dm_green = "#608060"  # "#526652"
 # dark: hsv -> h, 25, 50
 # d_green = "#608060"
 # light matt: hsv -> h, 25, 75
-lm_green = "#8fbf8f"
+lm_green = "#8FBF8F"
 
 theme = f"""{{
     "colors": {{
@@ -273,6 +273,12 @@ theme = f"""{{
         "minimapGutter.addedBackground": "{green}",
         "minimapGutter.deletedBackground": "{red}",
         "minimapGutter.modifiedBackground": "{green}",
+        "notebook.cellBorderColor": "{gray_level2}",
+        "notebook.cellEditorBackground": "{gray_level1}",
+        "notebook.cellToolbarSeparator": "{gray_level5}",
+        "notebook.focusedEditorBorder": "{gray_level2}",
+        "notebook.outputContainerBackgroundColor": "{gray_level2}",
+        "notebook.outputContainerBorderColor": "{gray_level2}",
         "notificationCenter.border": "{gray_level2}",
         "notificationCenterHeader.background": "{gray_level2}",
         "notificationCenterHeader.foreground": "{white}",
